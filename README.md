@@ -7,7 +7,7 @@ A docker image that wraps the AWS Cloudwatch logs python binary. Use it to send 
 
 Create a config file that the cloudwatch logs agent will use.
 
-cat /opt/awslogs.conf
+cat /opt/awslogs.conf. See [https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AgentReference.html](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AgentReference.html)
 
 	[general]
 	state_file = /var/awslogs/state/agent-state
